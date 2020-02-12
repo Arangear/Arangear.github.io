@@ -13,6 +13,12 @@
   }
 }
 
+.profile-img {
+  width: 300px;
+  margin-top: 100px;
+  border-radius: 300px;
+}
+
 .header {
   z-index: 1;
   text-align: center;
@@ -23,6 +29,7 @@
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
   .site-title {
     font-size: 50px;
     display: block;
@@ -31,7 +38,7 @@
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 100px;
-    }
+    }    
   }
   .site-description {
     font-size: 20px;
@@ -119,29 +126,4 @@
         color: $sec;
       }
   }
-}
-
-@import url('https://fonts.googleapis.com/css?family=Chathura&display=swap');
-
-html{
-  --main-bg-color: #070707;
-  --font: 'Chathura', sans-serif;
-}
-
-body{
-  font-size: 14px;
-  font-family: var(--font);
-}
-
-#svg-container{
-  background: $main;
-  display: block;
-  width: 100%;
-  place-items:center;
-  top:0;
-  left:50%;
-  min-height: 50vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
